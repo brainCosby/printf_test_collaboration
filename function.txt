@@ -1,0 +1,5 @@
+output_generator.h
+output_generator.c (print_char, print_string, print_percent)
+
+printers.h
+printers.c (_putchar, puts)
