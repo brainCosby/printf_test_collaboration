@@ -32,7 +32,7 @@ void _puts(const char *str)
  * @s: a parameter to the function
  * Return: the length of string
  */
-int _strlen(char *s)
+int _strlen(const char *s)
 {
 	int length = 0;
 
