@@ -17,7 +17,7 @@ int _putchar(char c)
  * @str: a parameter to the function
  */
 
-void _puts(char *str)
+void _puts(const char *str)
 {
 	for (; *str != '\0'; str++)
 	{
