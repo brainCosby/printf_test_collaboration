@@ -15,7 +15,7 @@
 void parse_and_print(const char *format, va_list args, int *char_count)
 {
 	char ch; /* to hold character if 'c' */
-	char *str /* to hold string if 's' */
+	char *str; /* to hold string if 's' */
 
 	while (*format != '\0') /* check if end of string is reached */
 	{
